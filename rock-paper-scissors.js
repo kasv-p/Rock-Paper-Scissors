@@ -23,7 +23,7 @@ function scores()
 {
   you=this.id;
   player=document.getElementById('player');
-  player.src=you+'.png';;
+  player.src=you+'.png';
 
   opponent=choiceslist[Math.floor(Math.random()*3)];
 
